@@ -20,10 +20,10 @@ Restarts the replay buffer when saving a clip to prevent clip overlapping
 ## Recommended timing based on own testing
 > [!Note]
 > This script requires a delay of at least half a second between each toggle where nothing is recorded.
-> The values below may depend on your computers hardware- and or software.
+> The values below may depend on your computers hard- and or software.
 
 | Time in seconds | Recommendation |
 | --- | --- |
-| 0.50 (lowest) | risky, test this properly before using! This may not re-enable depending on your computers tasks! |
+| 0.50 (lowest) | risky, test this properly before using! This may not re-enable! |
 | 1.00 | fast, reliability may vary depending on your computers workload. |
 | 1.50 | default, should work in all cases. |
