@@ -16,7 +16,7 @@ function script_properties()
 
     obs.obs_properties_add_bool(props, "enable_script", "Enable script functionality")
 
-    obs.obs_properties_add_float(props, "interval_seconds", "Time until clear", .5, 30, .25)
+    obs.obs_properties_add_float(props, "interval_seconds", "Seconds until clear", .5, 30, .25)
 
     obs.obs_properties_add_button(props, "restart_button", "Simulate Replay save", function()
         restart_replay_buffer()
