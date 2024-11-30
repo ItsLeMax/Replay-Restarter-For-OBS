@@ -36,6 +36,6 @@ Restarts the replay buffer when saving a clip to prevent clip overlapping
 
 ## Issue downloading the ZIP file
 
-![download](https://github.com/user-attachments/assets/d2e5ab6b-67db-41b9-9a76-d833f3825e4a)
+![download](https://github.com/user-attachments/assets/d2e5ab6b-67db-41b9-9a76-d833f3825e4a)\
 Windows may detect the ZIP file as a virus Trojan:Script/Wacatac.B!ml as of 30th of November 2024. This is a false alarm. It is not a virus.
 The lua file alone is not affected. Feel free to check the small and easy to understand lua file code on GitHub if you are not sure.
