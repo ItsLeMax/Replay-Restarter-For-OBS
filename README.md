@@ -19,7 +19,7 @@ Restarts the replay buffer when saving a clip to prevent clip overlapping
 ![1 0 0-scripts](https://github.com/user-attachments/assets/07f5feba-54df-4d7a-a0a5-3409582e9c39)
 4. Click on the Plus (`+`) symbol on the left, navigate to the folders location and choose the lua script file (`OBS-Buffer-Clear.lua`)\
 ![1 0 0-lua](https://github.com/user-attachments/assets/b49e911a-dda4-4077-b385-14d321e2f772)
-5. (Optional) change settings depending on your preferences\
+5. (Optional) Change settings depending on your preferences\
 ![1 0 0-options](https://github.com/user-attachments/assets/ff6ee01c-d4d2-48a5-bfda-4b1442c7baa0)
 
 ## Recommended timing based on own testing
