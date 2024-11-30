@@ -10,7 +10,7 @@ Restarts the replay buffer when saving a clip to prevent clip overlapping
 
 ## Setup
 
-1. Download the lua file by clicking on `OBS-Buffer-Clear.lua` and heading to the download symbol next to `Raw`
+1. Download the lua file by clicking on `OBS-Buffer-Clear.lua` and the download symbol next to `Raw`
 ![1 0 0-file](https://github.com/user-attachments/assets/26a80734-4de7-478e-8735-6aa2038b2939)\
 ![1 0 0-download](https://github.com/user-attachments/assets/58cdfbe9-d311-4d14-a155-26d06fe2031c)
 2. Move the file to a desired location
@@ -33,3 +33,9 @@ Restarts the replay buffer when saving a clip to prevent clip overlapping
 | 0.50 (lowest) | risky, test this properly before using! This may not re-enable! |
 | 1.00 | fast, reliability may vary depending on your computers workload. |
 | 1.50 | default, should work in all cases. |
+
+## Issue downloading the ZIP file
+
+Windows may detect the ZIP file as a virus Trojan:Script/Wacatac.B!ml as of 30th of November 2024. This is a false alarm. It is not a virus.
+The lua file alone is not affected. Feel free to check the small and easy to understand lua file code on GitHub if you are not sure.
+![download](https://github.com/user-attachments/assets/d2e5ab6b-67db-41b9-9a76-d833f3825e4a)
