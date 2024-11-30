@@ -1,11 +1,14 @@
 # OBS-Buffer-Clear
+
 Restarts the replay buffer when saving a clip to prevent clip overlapping
 
 ## Requirements
+
 > ...that are necessary:
 - [OBS Studio](https://obsproject.com/de/download)
 
 ## Setup
+
 1. Download the source code by clicking on `<> Code` & `Download ZIP` and extract its content
 ![download](https://github.com/user-attachments/assets/ec352d75-4ffe-4c5a-b06a-2eea52df8bba)
 2. Move the folder to a desired location
@@ -18,6 +21,7 @@ Restarts the replay buffer when saving a clip to prevent clip overlapping
 ![1 0 0-options](https://github.com/user-attachments/assets/ff6ee01c-d4d2-48a5-bfda-4b1442c7baa0)
 
 ## Recommended timing based on own testing
+
 > [!Note]
 > This script requires a delay of at least half a second between each toggle where nothing is recorded.
 > The values below may depend on your computers hard- and or software.
