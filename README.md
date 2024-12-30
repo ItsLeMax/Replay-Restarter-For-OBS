@@ -33,9 +33,3 @@ Restarts the replay buffer when saving a clip to prevent clip overlapping
 | 0.50 (lowest)   | risky, test this properly before using! This may not re-enable!  |
 | 1.00            | fast, reliability may vary depending on your computers workload. |
 | 1.50            | default, should work in all cases.                               |
-
-## Issue downloading the ZIP file
-
-![download](https://github.com/user-attachments/assets/d2e5ab6b-67db-41b9-9a76-d833f3825e4a)\
-Windows may detect the ZIP file you can download alternatively as a virus `Trojan:Script/Wacatac.B!ml` as of 30th of November 2024. This is a false alarm. It is not a virus.
-The lua file alone is not affected. Feel free to check the small and easy to understand lua file code on GitHub if you are not sure.
