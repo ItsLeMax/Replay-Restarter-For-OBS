@@ -4,11 +4,38 @@ local is_enabled = true
 local time_until_clear = 1.50
 
 function script_description()
-    return "Restarts the replay buffer when saving a clip to prevent clip overlapping\n\n"..
-    "Recommended timing based on own testing:\n\n"..
-    "This script requires a delay of at least half a second between each toggle where nothing is recorded. "..
-    "The values below may depend on your computers hardware- and or software.\n"..
-    "Risky: 0.50s | Fast: 1.00s | Default: 1.50s"
+    return
+    "<style>"..
+        "th { color:#4655d5; }"..
+        "p { color:#ededed }"..
+    "</style>"..
+
+    "<h3>OBS Buffer Clear</h3>"..
+    "<p>Restarts the replay buffer when saving a clip to prevent clip overlapping</p>"..
+
+    "<h3>Recommended timing based on own testing</h3>"..
+    "<p>OBS requires a delay of at least half a second between each toggle where nothing is recorded.</p>"..
+
+    "<p><i>The values below may depend on your computers hardware- and or software.</i></p>"..
+
+    "<p>If your computer is or will be stressed out or your hardware is not good enough, then you should "..
+    "consider higher timings like the default one. Feel free to choose smaller ones otherwise. "..
+    "It is recommended to test this in your use case to be sure.</p>"..
+
+    "<p></p>"..
+
+    "<table>"..
+        "<tr>"..
+            "<th>| Default</th>"..
+            "<th>| Fast</th>"..
+            "<th>| Risky</th>"..
+        "</tr>"..
+        "<tr>"..
+            "<td>| 1.50s</td>"..
+            "<td>| 1.00s</td>"..
+            "<td>| 0.50s</td>"..
+        "</tr>"..
+    "</table>"
 end
 
 function script_properties()
