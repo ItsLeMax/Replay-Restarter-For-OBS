@@ -6,14 +6,14 @@ local time_until_clear = 1.50
 function script_description()
     return
     "<style>"..
-        "th { color:#4655d5; }"..
+        "h3, th { color:#4655d5; }"..
         "p { color:#ededed }"..
     "</style>"..
 
     "<h3>OBS Buffer Clear</h3>"..
     "<p>Restarts the replay buffer when saving a clip to prevent clip overlapping</p>"..
 
-    "<h3>Recommended timing based on own testing</h3>"..
+    "<b>Recommended timing based on own testing</b>"..
     "<p>OBS requires a delay of at least half a second between each toggle where nothing is recorded.</p>"..
 
     "<p><i>The values below may depend on your computers hardware- and or software.</i></p>"..
