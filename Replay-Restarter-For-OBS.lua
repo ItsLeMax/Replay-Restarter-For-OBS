@@ -10,7 +10,7 @@ function script_description()
         "p { color:#ededed }"..
     "</style>"..
 
-    "<h3>OBS Buffer Clear</h3>"..
+    "<h3>Replay Restarter For OBS</h3>"..
     "<p>Restarts the replay buffer when saving a clip to prevent clip overlapping</p>"..
 
     "<b>Recommended timing based on own testing</b>"..
